@@ -1,7 +1,8 @@
 
 # Products managment
 
-**Web application**
+<span style="color:#008000">**Web application**</span>
+
 ## Description
 
 Management of goods and their flow
@@ -119,7 +120,8 @@ content:
 
 
 
-**Server application**
+<span style="color:#008000">**Server application**</span>
+
 ## Description
 Processing requests on the server
 
