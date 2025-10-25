@@ -2,7 +2,7 @@
 
 ## Getting started
 
-npm install (with version node >= 20)
+npm install (with version node >= 20).
 npm run dev
 
 ## Linter
