@@ -1,0 +1,19 @@
+@use '@/app/styles/colors' as colors;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  & .marginTop {
+    margin-top: 10px;
+  }
+}
+
+.buttonsGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
