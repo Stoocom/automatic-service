@@ -1,0 +1,28 @@
+@use '@/app/styles/variables' as var;
+
+.button {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.primary {
+  background-color: var.$color-primary;
+  color: var.$color-white;
+}
+
+.secondary {
+  background-color: #bed6ba;
+  color: var.$color-primary;
+}
+
+.disabled {
+  background-color: #a6aeb6;
+  color: var.$color-white;
+}

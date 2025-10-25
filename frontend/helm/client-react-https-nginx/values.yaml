@@ -1,0 +1,8 @@
+tlsSecretName: client-react-tls-secret   # изменяем имя TLS секрета
+
+service:
+  port: 443            # порт внутри контейнера
+  nodePort: 30123      # новый внешний NodePort, чтобы не конфликтовать с 30142
+
+proxyServiceName: client-react           # Имя целевого сервиса приложения
+proxyServicePort: 80                     # порт приложения (обычно 80)

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sort {
+  display: flex;
+  gap: 20px;
+}
+.right {
+  display: flex;
+  justify-content: end;
+
+  & .add {
+    padding: 10px 20px;
+  }
+}

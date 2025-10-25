@@ -1,0 +1,31 @@
+@use "@/app/styles/colors" as colors;
+@use "@/app/styles/fonts" as fonts;
+
+.form {
+  background: colors.$white;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.logo {
+  color: colors.$primary-dark;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  min-width: 0;
+  color: colors.$text-main;
+  font-weight: fonts.$weight-regular;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+
+  & label {
+    font-size: fonts.$size-small-xl;
+    padding: 10px 0px;
+  }
+}

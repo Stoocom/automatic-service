@@ -1,0 +1,81 @@
+@use "@/app/styles/colors" as colors;
+@use "@/app/styles/fonts" as fonts;
+
+.default {
+  color: colors.$text-main;
+}
+
+.primary {
+  color: colors.$primary;
+}
+
+.primary-accent {
+  color: colors.$primary-accent;
+}
+
+.secondary {
+  color: colors.$text-secondary;
+}
+
+.white {
+  color: colors.$white;
+}
+
+.grey {
+  color: colors.$text-gray;
+}
+
+.grey-light {
+  color: colors.$text-main-300;
+}
+
+.grey-light-xl {
+  color: colors.$text-main-400;
+}
+
+.extra-bold {
+  font-weight: fonts.$weight-extra-bold;
+}
+
+.bold {
+  font-weight: fonts.$weight-bold;
+}
+
+.semi-bold {
+  font-weight: fonts.$weight-semi-bold;
+}
+
+.regular {
+  font-weight: fonts.$weight-regular;
+}
+
+.medium {
+  font-size: fonts.$size-medium;
+}
+.medium-plus {
+  font-size: fonts.$size-medium-plus;
+}
+
+.large {
+  font-size: fonts.$size-large;
+}
+
+.large-plus {
+  font-size: fonts.$size-large-plus;
+}
+
+.extra-large {
+  font-size: fonts.$size-extra-large;
+}
+
+.small {
+  font-size: fonts.$size-small;
+}
+
+.small-xl {
+  font-size: fonts.$size-small-xl;
+}
+
+.large-xl {
+  font-size: fonts.$size-xl;
+}

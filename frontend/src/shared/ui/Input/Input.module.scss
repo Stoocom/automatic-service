@@ -1,0 +1,53 @@
+@use '@/app/styles/colors' as colors;
+@use '@/app/styles/fonts' as fonts;
+
+.wrapper {
+  width: 100%;
+  min-width: 0;
+  color: colors.$text-main;
+  font-weight: fonts.$weight-regular;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+
+  & label {
+    font-size: fonts.$size-small-xl;
+    padding: 10px 0px;
+  }
+}
+
+.input {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid colors.$border-grey-200;
+  height: 52px;
+  font-size: fonts.$size-small;
+  padding: 16px;
+
+  &:focus {
+    outline: 1px solid colors.$primary;
+  }
+}
+
+.error {
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  color: colors.$error;
+  margin-top: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.errorInput {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid colors.$error;
+  height: 52px;
+  font-size: fonts.$size-small;
+  padding: 16px;
+
+  &:focus {
+    outline: 1px solid colors.$error;
+  }
+}

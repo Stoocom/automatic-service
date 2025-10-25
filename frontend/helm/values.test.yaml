@@ -1,0 +1,15 @@
+name: ${CI_PROJECT_NAME}
+httpPort: 80
+
+service:
+  port: 80
+  nodePort:
+    enabled: true
+    nodePort: 30122
+
+envFrom:
+  - configMapRef:
+      name: APP_NAME-config
+
+configMaps:
+  - name: APP_NAME-config
