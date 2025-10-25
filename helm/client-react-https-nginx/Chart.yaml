@@ -1,4 +1,0 @@
-apiVersion: v2
-name: client-react-https-nginx
-description: Nginx TLS Terminator для client-react
-version: 0.1.0
