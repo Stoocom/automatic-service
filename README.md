@@ -1,7 +1,7 @@
 
 # Products managment
 
-<span style="color:#008000">**Web application**</span>
+<span style="color:green">**Web application**</span>
 
 ## Description
 
@@ -17,13 +17,17 @@ Management of goods and their flow
 
 ## Getting started 
 
-npm install (with version node >= 20)
+```bash
+$ npm install (with version node >= 20)
 
 npm run dev
+```
 
 ## Linter
 
+```bash
 npm run lint
+```
 
 ## VSC config linter
 
@@ -120,7 +124,7 @@ content:
 
 
 
-<span style="color:#008000">**Server application**</span>
+<span style="color:green">**Server application**</span>
 
 ## Description
 Processing requests on the server
