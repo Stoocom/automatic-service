@@ -12,6 +12,9 @@ npm run lint
 
 ## VSC config linter
 
+path: .vscode/setting.json
+
+content:
 {
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
